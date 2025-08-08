@@ -1,6 +1,13 @@
 jsgifkeylogger
 ==============
 
+=== Update 2025 ===
+
+
+
+
+=== 2013 ===
+
 a javascript keylogger included in a gif file 
 This is a PoC
 
