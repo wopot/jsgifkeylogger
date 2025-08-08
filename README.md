@@ -3,11 +3,54 @@ jsgifkeylogger
 
 
 === Update 08/2025 ===
-Its the 08 August.
-I never thought this PoC would still be working in 2025, but you never know.
+
+It`s the 08 August.
+I never thought this PoC would still be working in 2025, but you never know.<br>
 So now let's arm the thing.
 
 
+Hidding the JS Payload "inside" a GIF
+
+The JS Payload:
+
+```
+src/cleanTextShell.js
+```
+
+need to get minify 
+```
+src/minifyJSShell.js
+```
+and than added into the
+
+```
+gifjs.asm
+```
+than complail with FASM or NASM
+
+Now we have a Polyglot GIF that can be served by a ngnix or apache httpd
+
+We have build a docker-compose ngnix setup for simulation, 
+to serv the payload AND the backend.
+> Normally that do not need to be on the same server.
+
+
+They JS send a HTTP GET Call to the backend on every key input.
+> Normally a buffer is usefull.
+
+The HTTP GET Call look like a typical webpack js file
+```
+  http://localhost:8080/assets/js/view.111086.js
+```
+But we only want the string: "086" (keyCode for "V"). <br>
+The hacky PHP Backend is only for testing. It saves the keyCode into an IP labeled txt file. 
+
+
+We try to bypass firewalls with IDS, DPI and other hyped ai/blockchain tech. 
+
+> If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck or a JS keylogger
+
+> the entrance is not always the exit of a dataflow
 
 
 === Update 2025 ===
