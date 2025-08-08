@@ -18,7 +18,24 @@ straightforward as possible.
 ### Changed
  
 ### Fixed
- 
+
+## [1.0.2] - 2025-08-08
+explain the PoC in the Readme
+
+### Added
+
+- Docker Compose ngnix Setup
+- plain/minify js shell
+  
+### Changed
+
+- obscure the dataflow by mocking a "typical webpack js file path" as entrance, and return BS js from the PHP backend
+
+### Fixed
+
+- timestamp logging in the PHP backend
+- cleanup the PHP backend
+
 ## [1.0.1] - 2025-08-07
   
 Update after 12 Years:
