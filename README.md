@@ -1,9 +1,21 @@
 jsgifkeylogger
 ==============
 
+
+=== Update 08/2025 ===
+Its the 08 August.
+I never thought this PoC would still be working in 2025, but you never know.
+So now let's arm the thing.
+
+
+
+
 === Update 2025 ===
 
+Adding Apache HTTP .htaccess for mime type spoofing by [@FF-Ibb-PD](https://github.com/FF-Ibb-PD)
 
+Works on:
+- Microsoft Edge 139 (2025/08/07)
 
 
 === 2013 ===
